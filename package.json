@@ -1,0 +1,19 @@
+{
+  "name": "dark-mode-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiotto/dark-mode-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fiotto/dark-mode-sample/issues"
+  },
+  "homepage": "https://github.com/fiotto/dark-mode-sample#readme"
+}
