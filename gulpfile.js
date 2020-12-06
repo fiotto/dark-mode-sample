@@ -23,7 +23,7 @@ function html() {
 }
 
 function style() {
-    return gulp.src('src/sass/style.sass')
+    return gulp.src('src/sass/style.scss')
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(mode.development(sourcemaps.write('.')))
@@ -42,7 +42,7 @@ const build = gulp.parallel(html, style);
 
 const watch = gulp.parallel(build, function(cb) {
     gulp.watch('src/html/**/*.pug', html);
-    gulp.watch('src/sass/**/*.sass', style);
+    gulp.watch('src/sass/**/*.scss', style);
     cb();
 })
 
